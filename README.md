@@ -19,3 +19,15 @@ The only change is that `ESpec.Phoenix.Views.Helpers.render/3` has been renamed 
       [{:espec_phoenix_helpers, "~> 0.1.0", only: :test, app: false}]
     end
     ```
+
+## Setup
+
+You'll need to manually import the helpers and assertions that you want in your `espec_phoenix_extend.ex`.
+
+
+## Contributing
+
+1. Before opening a pull request, please open an issue first.
+2. Do the usual fork/add/fix/run tests dance, or whatever tickles your fancy. Tests are highly encouraged.
+3. Open a PR.
+4. Treat yourself. You deserve it.
