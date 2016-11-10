@@ -8,15 +8,36 @@ defmodule EspecPhoenixHelpers.Mixfile do
       elixir: "~> 1.3",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
+      description: description(),
+      package: package(),
       deps: deps()
     ]
+  end
+
+  def package do
+    [
+      maintainers: ["Joshua Rieken"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/facto/espec_phoenix_helpers"},
+      files: ~w(mix.exs README.md lib),
+    ]
+  end
+
+  def description do
+    """
+    Helpers and assertions extracted from espec_phoenix
+    """
   end
 
   # Configuration for the OTP application
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger]]
+    [
+      applications: [
+        :logger
+      ]
+    ]
   end
 
   # Dependencies can be Hex packages:
@@ -29,6 +50,9 @@ defmodule EspecPhoenixHelpers.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:espec, "~> 0.0 or ~> 1.0"},
+      {:espec_phoenix, ">= 0.3.0"}
+    ]
   end
 end
