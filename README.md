@@ -1,6 +1,6 @@
 # ESpec Phoenix Helpers
 
-Provides assertions and helpers for use with [espec_phoenix](https://github.com/antonmi/espec_phoenix).
+Assertions and helpers for use with [espec_phoenix](https://github.com/antonmi/espec_phoenix).
 
 These were originally part of the core project but were extracted out to keep that project thin.
 
