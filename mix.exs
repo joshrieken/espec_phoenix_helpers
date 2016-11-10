@@ -52,7 +52,8 @@ defmodule EspecPhoenixHelpers.Mixfile do
   defp deps do
     [
       {:espec, "~> 0.0 or ~> 1.0"},
-      {:espec_phoenix, ">= 0.3.0"}
+      {:espec_phoenix, ">= 0.3.0"},
+      {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
 end
