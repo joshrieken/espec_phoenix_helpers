@@ -4,9 +4,11 @@ Assertions and helpers for use with [espec_phoenix](https://github.com/antonmi/e
 
 These were originally part of the core project but were extracted out to keep that project thin.
 
+
 ## Changes from the Original Helpers
 
 The only change is that `ESpec.Phoenix.Views.Helpers.render/3` has been renamed to `ESpec.Phoenix.Views.Helpers.render_template/3` to avoid conflicting with `Phoenix.View.render/3`.
+
 
 ## Installation
 
