@@ -14,14 +14,6 @@ The only change is that `ESpec.Phoenix.Views.Helpers.render/3` has been renamed 
 
     ```elixir
     def deps do
-      [{:espec_phoenix_helpers, "~> 0.1.0"}]
-    end
-    ```
-
-  2. Ensure `espec_phoenix_helpers` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:espec_phoenix_helpers]]
+      [{:espec_phoenix_helpers, "~> 0.1.0", only: :test, app: false}]
     end
     ```
