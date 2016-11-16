@@ -51,8 +51,10 @@ defmodule EspecPhoenixHelpers.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:espec, ">= 1.1.0"},
+      {:espec,         ">= 1.1.0"},
       {:espec_phoenix, ">= 0.3.0 and < 1.0.0"},
+      {:phoenix,       "~> 1.0"},
+
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
