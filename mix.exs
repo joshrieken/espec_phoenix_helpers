@@ -54,6 +54,7 @@ defmodule EspecPhoenixHelpers.Mixfile do
       {:espec,         ">= 1.1.0"},
       {:espec_phoenix, ">= 0.3.0 and < 1.0.0"},
       {:phoenix,       "~> 1.0"},
+      {:floki,         "~> 0.11"},
 
       {:ex_doc, ">= 0.0.0", only: :dev}
     ]
