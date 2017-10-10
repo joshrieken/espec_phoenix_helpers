@@ -1,4 +1,4 @@
-# ESpec Phoenix Helpers
+# WARNING: This repo will no longer be maintained by me, @facto. I have moved entirely away from espec in favor of exunit. If you are interested in maintaining this, let me know and I will transfer control to you.
 
 Assertions and helpers for use with [espec_phoenix](https://github.com/antonmi/espec_phoenix).
 
@@ -19,6 +19,7 @@ The only change is that `ESpec.Phoenix.Views.Helpers.render/3` has been renamed 
       [{:espec_phoenix_helpers, "~> 0.3.3", only: :test}]
     end
     ```
+
 
 ## Setup
 
