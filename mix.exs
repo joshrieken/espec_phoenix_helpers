@@ -4,7 +4,7 @@ defmodule EspecPhoenixHelpers.Mixfile do
   def project do
     [
       app: :espec_phoenix_helpers,
-      version: "0.3.4",
+      version: "0.4.0",
       elixir: "~> 1.3",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
