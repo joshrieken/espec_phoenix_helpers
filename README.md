@@ -16,7 +16,7 @@ The only change is that `ESpec.Phoenix.Views.Helpers.render/3` has been renamed 
 
     ```elixir
     def deps do
-      [{:espec_phoenix_helpers, "~> 0.3.4", only: :test}]
+      [{:espec_phoenix_helpers, "~> 0.4.0", only: :test}]
     end
     ```
 
